@@ -295,6 +295,24 @@ apiRouter.get("/v1/models", (ctx) => {
       created: 1234567890,
       owned_by: "enginelabs",
     },
+    {
+      id: "GPT-5-Codex",
+      object: "model",
+      created: 1234567890,
+      owned_by: "enginelabs",
+    },
+    {
+      id: "Gemini 2.5 Pro",
+      object: "model",
+      created: 1234567890,
+      owned_by: "enginelabs",
+    },
+    {
+      id: "Claude Haiku 4.5",
+      object: "model",
+      created: 1234567890,
+      owned_by: "enginelabs",
+    },
   ];
   ctx.response.body = { object: "list", data: models };
 });
